@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=DM+Sans:opsz,wght@9..40,200&family=Inter:wght@400;700&family=Krona+One&family=Montserrat&family=Noto+Sans+Multani&family=Poppins&family=Space+Grotesk:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eebdbd;
+}
+
+.cabecalho {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 82px;
+}
+
+.cabecalho-menu {
+    display: flex; 
+    gap: 36px
+}
+
+.cabecalho-menu-link {
+    font-family: 'Poppins', sans-serif;
+    color: #962c2a;
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+
+.cabecalho-menu-link:hover {
+    color: #813736;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #690404;
+}
+
+.conteudo-principal-texto {
+    font-family: 'Noto Sans Multani', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #661d1d;
+
+}
+
+.botao {
+    background-color: #900C3F;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #FFDBC3;
+}
+
+.botao:hover{
+    background-color: #5a0828;
+    color: #f5c6a7;
+}
+
+
+.conteudo-principal-imagem {
+    height: 430px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+border-top: 0.4px solid white;
+padding-top: 48px;
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 500;
+font-size: 2rem;
+color: #490e0e;
+margin-bottom: 16px;
+}
+
+.conteudo-secundario-texto {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #960f0f;
+    text-align: center;
+
+}
+
+.rodape{
+    padding: 32px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+
+.conteudo-sobre {
+padding: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;    
+align-items: center;
+gap: 25px
+}
+
+.paragrafo-sobre {
+    font-size: 1.3rem;
+    padding-left: 48px;
+    font-family: 'Poppins', sans-serif;
+    border-left: 2px solid rgb(221, 31, 17);
+}
+
+.titulo-sobre {
+    font-size: 4.6rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+.rodape-sobre {
+    padding-top: 95px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.comandos {
+padding: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;    
+gap: 40px;
+}
+
+
+.titulo-comandos {
+    font-size: 3.8rem;
+    font-family: 'Barlow', sans-serif;
+    color: #661d1d;
+    
+    
+}
+
+.texto-comandos {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    color: #960f0f;
+
+    
+}
+
+.rodape {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+.conteudo-botao {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    gap: 25px;
+    
+}
+
+.titulo-botao {
+    font-size: 3.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #661d1d;
+}
+
+.robot-404 {
+    height: 300px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+body {
+    display: block;
+}
+
+.cabecalho {
+    padding: 10%;
+    
+}
+
+.cabecalho-imagem{
+    display: none;
+}
+
+
+.cabecalho-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo {
+    margin: 2em 2em;
+
+}
+
+.conteudo-principal {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-principal-imagem {
+    height: 80vw;
+}
+
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.conteudo-principal-texto{
+   font-size: 1.6rem;
+   font-weight: 400;
+}
+
+.titulo-botao {
+    font-size: 2.0rem;
+    padding-bottom: 20px;
+}
+
+
+.conteudo-secundario-titulo {
+    font-size: 1.8rem;
+}
+
+.titulo-sobre{
+    font-size: 3.2rem;
+}
+
+.paragrafo-sobre {
+    font-size: 1.1rem;
+}
+
+.titulo-comandos {
+    font-size: 3.4rem;
+}
+
+.texto-comandos {
+    font-size: 1.4rem;
+}
+
+}
